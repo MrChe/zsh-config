@@ -126,3 +126,6 @@ antigen theme robbyrussell
 
 # Tell Antigen that you're done.
 antigen apply
+
+# timestamp
+PROMPT='%{$fg[yellow]%}[%D{%f/%m/%y} %D{%L:%M:%S}] '$PROMPT
